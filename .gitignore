@@ -1,0 +1,48 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model outputs and logs
+runs/
+comparison_results/
+*.pt
+
+# TensorBoard logs
+runs/
+events.out.tfevents.*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dataset
+squad_data/
+punkt_data/ 
