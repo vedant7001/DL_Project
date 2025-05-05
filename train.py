@@ -276,7 +276,7 @@ def main():
     parser.add_argument("--embedding_dim", type=int, default=300, help="Dimension of word embeddings")
     parser.add_argument("--hidden_dim", type=int, default=256, help="Dimension of hidden state in RNNs")
     parser.add_argument("--batch_size", type=int, default=32, help="Batch size")
-    parser.add_argument("--num_epochs", type=int, default=10, help="Number of epochs to train")
+    parser.add_argument("--num_epochs", type=int, default=20, help="Number of epochs to train")
     parser.add_argument("--learning_rate", type=float, default=0.001, help="Learning rate")
     parser.add_argument("--dropout", type=float, default=0.2, help="Dropout rate")
     parser.add_argument("--max_context_length", type=int, default=400, help="Maximum context length")
